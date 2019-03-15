@@ -14,10 +14,10 @@ int main() {
            "8. White\n"
            "please choose the  number\n"
            "enter the number:");
-    scanf("%d", &num);
+    scanf("%d", &num);//user input 
     char sen[1000];
     printf("enter the sentence");
-    switch (num) {
+    switch (num) {//to select the colour user want in his senetnce
         case 1:
             scanf("\n%[^\n]", sen);
             printf("\033[1;30m""%s", sen);
